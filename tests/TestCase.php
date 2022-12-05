@@ -2,9 +2,9 @@
 
 namespace Gtmassey\Period\Tests;
 
+use Gtmassey\Period\PeriodServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Gtmassey\Period\PeriodServiceProvider;
 
 class TestCase extends Orchestra
 {

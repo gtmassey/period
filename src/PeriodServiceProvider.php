@@ -4,7 +4,6 @@ namespace Gtmassey\Period;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Gtmassey\Period\Commands\PeriodCommand;
 
 class PeriodServiceProvider extends PackageServiceProvider
 {
