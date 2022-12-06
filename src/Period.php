@@ -197,12 +197,4 @@ class Period
             endDate: CarbonImmutable::today()->startOfYear()->subDay(),
         );
     }
-
-    /* public function getDateRange(): DateRange
-    {
-        return new DateRange([
-            'start_date' => $this->startDate->toDateString(),
-            'end_date' => $this->endDate->toDateString(),
-        ]);
-    } */
 }
