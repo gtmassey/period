@@ -15,7 +15,6 @@ class PeriodServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('period')
-            ->hasConfigFile();
+            ->name('period');
     }
 }

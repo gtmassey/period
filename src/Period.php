@@ -198,45 +198,6 @@ class Period
         );
     }
 
-    public static function randomDateBeforeToday(): CarbonImmutable
-    {
-        return CarbonImmutable::today()->subDays(rand(1, 365));
-    }
-
-    public static function randomDateAfterToday(): CarbonImmutable
-    {
-        return CarbonImmutable::today()->addDays(rand(1, 365));
-    }
-
-    public static function randomPastRange(): self
-    {
-        $startDate = self::randomDateBeforeToday();
-        $endDate = self::randomDateBeforeToday()->addDays(rand(1, $startDate->diffInDays(CarbonImmutable::today())));
-
-        return new Period(
-            startDate: self::randomDateBeforeToday(),
-            endDate: self::randomDateBeforeToday(),
-        );
-    }
-
-    public static function randomFutureRange(): self
-    {
-        $startDate = self::randomDateAfterToday();
-        $endDate = self::randomDateAfterToday();
-
-        //if the start date is after the end date, swap them
-        if ($startDate->greaterThan($endDate)) {
-            $oldStart = $startDate;
-            $startDate = $endDate;
-            $endDate = $oldStart;
-        }
-
-        return new Period(
-            startDate: $startDate,
-            endDate: $endDate,
-        );
-    }
-
     /* public function getDateRange(): DateRange
     {
         return new DateRange([
