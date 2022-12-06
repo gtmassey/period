@@ -1,9 +1,8 @@
 # Period
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/gtmassey/period.svg?style=flat-square)](https://packagist.org/packages/gtmassey/period)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/gtmassey/period/run-tests?label=tests)](https://github.com/gtmassey/period/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/gtmassey/period/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/gtmassey/period/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/gtmassey/period.svg?style=flat-square)](https://packagist.org/packages/gtmassey/period)
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Total Downloads][ico-downloads]][link-downloads]
+[![Tests][ico-tests]][link-tests]
 
 Create date ranges and periods of time with ease.
 
@@ -94,3 +93,11 @@ Thank you to the team at [Spatie](https://github.com/spatie) for their awesome p
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+[ico-version]: https://img.shields.io/packagist/v/gtmassey/laravel-analytics.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/gtmassey/laravel-analytics.svg?style=flat-square
+[ico-tests]: https://github.com/gtmassey/Analytics/actions/workflows/run-tests.yml/badge.svg
+
+[link-packagist]: https://packagist.org/packages/gtmassey/laravel-analytics
+[link-downloads]: https://packagist.org/packages/gtmassey/laravel-analytics
+[link-tests]: https://github.com/gtmassey/Analytics/actions/workflows/run-tests.yml
