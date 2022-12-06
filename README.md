@@ -84,7 +84,12 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## Credits
 
 - [Garrett Massey](https://github.com/gtmassey)
+- [Plytas](https://github.com/plytas)
 - [All Contributors](../../contributors)
+
+This package was extracted from [gtmassey/laravel-analytics](https://github.com/gtmassey/laravel-analytics). A special thanks goes to [Plytas](https://github.com/plytas) for their help in creating the original package this code is extracted from.
+
+Thank you to the team at [Spatie](https://github.com/spatie) for their awesome packages and inspiration. Their laravel-analytics package was the inspiration for this project and the analytics project.
 
 ## License
 
