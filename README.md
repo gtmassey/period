@@ -94,10 +94,10 @@ Thank you to the team at [Spatie](https://github.com/spatie) for their awesome p
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/gtmassey/laravel-analytics.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/gtmassey/laravel-analytics.svg?style=flat-square
-[ico-tests]: https://github.com/gtmassey/Analytics/actions/workflows/run-tests.yml/badge.svg
+[ico-version]: https://img.shields.io/packagist/v/gtmassey/period.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/gtmassey/period.svg?style=flat-square
+[ico-tests]: https://github.com/gtmassey/period/actions/workflows/run-tests.yml/badge.svg
 
-[link-packagist]: https://packagist.org/packages/gtmassey/laravel-analytics
-[link-downloads]: https://packagist.org/packages/gtmassey/laravel-analytics
-[link-tests]: https://github.com/gtmassey/Analytics/actions/workflows/run-tests.yml
+[link-packagist]: https://packagist.org/packages/gtmassey/period
+[link-downloads]: https://packagist.org/packages/gtmassey/period
+[link-tests]: https://github.com/gtmassey/period/actions/workflows/run-tests.yml
