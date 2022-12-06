@@ -23,37 +23,52 @@ You can install the package via composer:
 composer require gtmassey/period
 ```
 
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="period-migrations"
-php artisan migrate
-```
-
-You can publish the config file with:
-
-```bash
-php artisan vendor:publish --tag="period-config"
-```
-
-This is the contents of the published config file:
-
-```php
-return [
-];
-```
-
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="period-views"
-```
-
 ## Usage
 
+All instances of Period take in Carbon instances for the `startDate` and `endDate`. 
+
+You can define a period by passing a start and end date to the static `create` method:
+
 ```php
-$period = new Gtmassey\Period();
-echo $period->echoPhrase('Hello, Gtmassey!');
+
+$customPeriod = Period::create(Carbon::now()->subDays(3), Carbon::now());
+
+```
+
+You can also use one of the many methods provided for you to generate pre-defined periods of time:
+
+```php
+
+//days
+Period::today();
+Period::yesterday();
+Period::lastDays(int $days); //$days = 2
+Period::lastDaysExcludingToday(int $days); //$days = 2
+
+//weeks
+Period::thisWeek();
+Period::thisWeekExcludingToday();
+Period::lastWeek();
+Period::lastWeeks(int $weeks);
+
+//months
+Period::thisMonth();
+Period::thisMonthExcludingToday();
+Period::lastMonth();
+Period::lastMonths(int $months);
+
+//quarters (3 months)
+Period::thisQuarter();
+Period::thisQuarterExcludingToday();
+Period::lastQuarter();
+Period::lastQuarters(int $quarters);
+
+//years
+Period::thisYear();
+Period::thisYearExcludingToday();
+Period::lastYear();
+Period::lastYears(int $years);
+
 ```
 
 ## Testing
