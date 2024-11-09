@@ -17,14 +17,14 @@
     ],
     "require": {
         "php": "^8.1",
-        "illuminate/contracts": "^9.0|^10.0",
+        "illuminate/contracts": "^9.0|^10.0|^11.0",
         "nesbot/carbon": "^2.64",
         "spatie/laravel-package-tools": "^1.13.0"
     },
     "require-dev": {
+        "larastan/larastan": "^2.9",
         "laravel/pint": "^1.2.1",
         "nunomaduro/collision": "^6.3.1",
-        "nunomaduro/larastan": "^2.2.9",
         "orchestra/testbench": "^7.15|^8.0",
         "phpstan/extension-installer": "^1.2",
         "phpstan/phpstan-deprecation-rules": "^1.0",
