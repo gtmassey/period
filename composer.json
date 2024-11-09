@@ -24,8 +24,7 @@
     "require-dev": {
         "larastan/larastan": "^2.9",
         "laravel/pint": "^1.2.1",
-        "nunomaduro/collision": "^v8.5.0",
-        "orchestra/testbench": "^8.0|^9.0",
+        "orchestra/testbench": "^9.5",
         "phpstan/extension-installer": "^1.2",
         "phpstan/phpstan-deprecation-rules": "^1.0",
         "phpstan/phpstan-mockery": "^1.1",
